@@ -9,7 +9,7 @@ def run():
     
     # squares = [i**2 for i in range(1, 101) if i % 3 != 0]
     
-    squares = [i for i in range(1,100000) if i % 36 ==0 ]
+    squares = [i for i in range(1,100000) if i % 36 == 0]
 
 
     print(squares)
