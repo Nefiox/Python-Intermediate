@@ -21,8 +21,6 @@ def run():
     for item in super_list:
         print(item["firstname"], "-" ,item["lastname"])
 
-    for i in range(1,100):
-        print(i**i)
 
 if __name__ == '__main__':
     run()
